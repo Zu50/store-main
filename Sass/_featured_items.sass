@@ -1,0 +1,105 @@
+.featured-items
+  width: 100%
+  &__header
+    height: 60px
+    text-align: center
+    margin-bottom: 57px
+  &__h3
+    font-family: Lato Regular
+    font-size: 30px
+    line-height: 36px
+    font-weight: 900
+  &__p
+    font-size: 14px
+    line-height: 17px
+    color: #AFAFAF
+    font-family: Lato Regular
+    font-weight: 100
+  &__container
+    display: grid
+    grid-template-columns: repeat(3, 31.6%)
+    grid-gap: 2.6%
+    .item-product
+      position: relative
+      &:hover
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+        & .product-link__product-image
+          filter: brightness(50%)
+        & .add-to-cart-link
+          display: flex
+          border: 1px solid #fff
+          text-decoration: none
+          color: #fff
+          padding: 15px 12px
+    .product-link
+      text-decoration: none
+      color: black
+      display: flex
+      flex-direction: column
+      background-color: #F8F8F8
+      &__h3
+        padding: 24px 18px 12px
+        font-family: Lato Regular
+        font-weight: 400
+        font-size: 13px
+        text-transform: uppercase
+      &__desc
+        padding-left: 18px
+        font-family: Lato Light
+        font-style: normal
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        color: #5D5D5D
+      &__price
+        padding-left: 18px
+        padding-top: 18px
+        font-family: Lato Regular
+        font-weight: 400
+        color: #f16d7f
+        margin-bottom: 21px
+    .add-box
+      position: absolute
+      top: 30%
+      left: auto
+      width: 100%
+      display: flex
+      justify-content: center
+    .add-to-cart-link
+      display: none
+      transition: 0.3s
+      &:hover
+        box-shadow: 0 0 10px #fff
+        transform: rotate(360deg)
+      &__span
+        display: block
+        margin-top: 5px
+        margin-left: 8px
+        font-family: Lato
+        font-size: 13px
+        font-weight: 700
+        font-style: normal
+        letter-spacing: normal
+        line-height: normal
+  &__btn-cont
+    margin-top: 78px
+    margin-bottom: 95px
+    display: flex
+    justify-content: center
+    .catalog-link
+      font-family: Lato Regular
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 19px
+      color: #F26376
+      background-color: white
+      padding: 14px 38px
+      text-decoration: none
+      border: 1px solid #f16d7f
+      &:hover
+        background-color: #f16d7f
+        color: white
+        border: 1px solid transparent
+
+

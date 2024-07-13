@@ -1,0 +1,43 @@
+.banner-category-main
+  width: 100%
+  padding-top: 65px
+  padding-bottom: 95px
+  &__container
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: 260px 180px
+    grid-gap: 30px
+  &__link
+    grid-column: span 1
+    text-decoration: none
+    display: flex
+    justify-content: center
+    align-items: center
+    &_1
+      background-image: url("img/category-banner1-main.jpg")
+    &_2
+      background-image: url("img/category-banner2-main.jpg")
+    &_3
+      background-image: url("img/category-banner3-main.jpg")
+    &_fouth-long-link
+      grid-column: span 3
+      background-image: url("img/category-banner4-main.jpg")
+  &_block-h2
+    text-align: center
+  .desc-and-name-category
+    text-align: center
+    .desc-category
+      font-family: Lato Regular
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 19px
+      color: white
+    .name-category
+      font-family: Lato Regular
+      font-style: normal
+      font-weight: 700
+      font-size: 24px
+      line-height: 29px
+      color: #F16D7F
+
